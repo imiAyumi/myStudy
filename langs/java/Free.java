@@ -7,4 +7,18 @@ public class Free {
     // ArrayList(Collection<? extends E> C) は何してんの？
 
     // LinkedList<E> は複数のインターフェースを実装してる。
+
+    // Map の K - V の組み合わせって重複 OK だっけ？
+    // Map は コレクションフレームワークだけど、Collection インターフェースを実現してるわけではない
+    // https://docs.oracle.com/javase/jp/7/technotes/guides/collections/overview.html
+    // インターフェースか、クラスか、をよく見る
+
+    // Map から 1 組だけ取出す方法は？(Map.entrySet() と Map.Entry<K, V>)
+
+    // 読んでて腹立つ 22 番(p.84)
+
+    // ここから 3 章
+
+    // 各関数型インターフェースの役割というか使い方をよくよく覚える。
+
 }
