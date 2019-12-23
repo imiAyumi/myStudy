@@ -44,3 +44,9 @@ func changeA(a int) {
 	a = 3
 	fmt.Printf("4: %v, %p\n", a, a)
 }
+
+func changeB(a string) {
+	fmt.Printf("3: %v, %p\n", a, a)
+	a = "3"
+	fmt.Printf("4: %v, %p\n", a, a)
+}
