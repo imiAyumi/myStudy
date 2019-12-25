@@ -1,0 +1,3 @@
+class FooS<? super String>{
+
+}
