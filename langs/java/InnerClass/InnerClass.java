@@ -1,34 +1,34 @@
 package InnerClass;
 
 public class InnerClass {
-    // static メンバークラス
-    public static class StaticClass {
-    }
+	// static メンバークラス
+	public static class StaticClass {
+	}
 
-    public void funcForStaticClass() {
-        StaticClass staticClass = new StaticClass();
-    }
+	public void funcForStaticClass() {
+		StaticClass staticClass = new StaticClass();
+	}
 
-    // メンバークラス
-    public class MemberClass {
-    }
+	// メンバークラス
+	public class MemberClass {
+	}
 
-    public void funcForMemberClass() {
-        MemberClass memberClass = new MemberClass();
-    }
+	public void funcForMemberClass() {
+		MemberClass memberClass = new MemberClass();
+	}
 
-    public static void staticFuncForMemberClass() {
-        InnerClass free1 = new InnerClass();
-        MemberClass memberClass = free1.new MemberClass();
+	public static void staticFuncForMemberClass() {
+		InnerClass free1 = new InnerClass();
 
-        MemberClass free2 = new InnerClass().new MemberClass();
-    }
+		MemberClass memberClass = free1.new MemberClass();
+		MemberClass memberClass2 = new InnerClass().new MemberClass();
+	}
 
-    // ローカルクラス
-    public void doIt() {
-        class LocalClass {
-        }
-    }
+	// ローカルクラス
+	public void doIt() {
+		class LocalClass {
+		}
+	}
 
-    // ローカルクラウスは外からは呼べない
+	// ローカルクラスは外からは呼べない
 }
