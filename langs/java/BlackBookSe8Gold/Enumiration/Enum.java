@@ -1,4 +1,4 @@
-package Enumiration;
+package langs.java.blackBookSe8Gold.Enumiration;
 
 public enum Enum {
 

@@ -1,3 +1,5 @@
+package langs.java.blackBookSe8Gold;
+
 public class Main {
     public static void main(String[] args) {
         Main main = new Main();

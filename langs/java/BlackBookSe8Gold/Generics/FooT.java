@@ -1,3 +1,5 @@
+package langs.java.blackBookSe8Gold.Generics;
+
 // エラーになって駄目だった。
 // import java.lang.annotation.ElementType;
 

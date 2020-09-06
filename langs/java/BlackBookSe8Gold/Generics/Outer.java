@@ -1,3 +1,5 @@
+package langs.java.blackBookSe8Gold.Generics;
+
 class Outer {
     // OK
     // 基本的な宣言とインスタンス生成

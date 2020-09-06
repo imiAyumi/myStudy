@@ -1,4 +1,4 @@
-package InnerClass;
+package langs.java.blackBookSe8Gold.InnerClass;
 
 public class InnerClass {
 	// static メンバークラス

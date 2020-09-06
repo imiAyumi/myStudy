@@ -1,4 +1,4 @@
-package Lambda;
+package langs.java.blackBookSe8Gold.Lambda;
 
 public class Example {
 	public static void main(String[] args) {

@@ -1,3 +1,5 @@
+package langs.java.blackBookSe8Gold;
+
 public class Free {
     // メソッドの引数に＜＞を用いた場合と、メソッド名の前に＜＞を付けた場合の違いは？
 

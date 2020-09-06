@@ -1,4 +1,4 @@
-package Extend;
+package langs.java.blackBookSe8Gold.Extend;
 
 public class X implements B, C {
 

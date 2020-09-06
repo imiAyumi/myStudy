@@ -1,3 +1,5 @@
+package langs.java.blackBookSe8Gold.Generics;
+
 import java.util.ArrayList;
 
 class Foo {
