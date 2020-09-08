@@ -1,4 +1,4 @@
-package langs.java.studyGuideSe11Gold.chapter1;
+package langs.java.studyGuideSe11Gold.chapter01;
 
 public enum No_23 {
     A(true),

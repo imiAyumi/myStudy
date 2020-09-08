@@ -1,4 +1,4 @@
-package langs.java.studyGuideSe11Gold.chapter1;
+package langs.java.studyGuideSe11Gold.chapter01;
 
 public interface No_13 {
     int amount = 10;

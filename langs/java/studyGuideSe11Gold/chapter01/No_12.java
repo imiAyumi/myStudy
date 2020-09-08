@@ -1,4 +1,4 @@
-package langs.java.studyGuideSe11Gold.chapter1;
+package langs.java.studyGuideSe11Gold.chapter01;
 
 public class No_12 {
     private interface Sing {
