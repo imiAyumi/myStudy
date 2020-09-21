@@ -1,0 +1,14 @@
+@startuml
+
+title Collection UML
+
+' 親玉
+interface "Map<E>"
+
+' 下っ端
+class "HashMap<E>"
+
+' 関係図
+"Map<E>" <|.. "HashMap<E>"
+
+@enduml

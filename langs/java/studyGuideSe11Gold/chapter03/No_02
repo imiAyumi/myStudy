@@ -1,0 +1,16 @@
+実装で語れそうに無いので文章で
+
+java.util.Map (java.util.HashMap)
+java.util.Map<String, String> map = new java.util.HashMap<>();
+キーの順番がいい感じのソート順になることは保証されない
+
+java.util.TreeMap
+キーの順番が自動でいい感じにソートされる
+
+
+
+java.util.HashSet
+重複を許さないデータの集合。データの順序づけとかは無い
+
+java.util.TreeSet
+重複を許さないデータの集合。データがいい感じに並べ替えられる。
