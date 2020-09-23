@@ -4,12 +4,14 @@ title Collection UML
 
 ' 親玉
 interface "Collection<E>"{
-    +removeIf(Predicate)
+    +removeIf(Predicate p)
+    +remove(Object obj)
 }
 
 ' 参謀
 interface "List<E>" {
     +of()
+    +remove(int index)
 }
 interface "Queue<E>"
 interface "Set<E>"
@@ -29,6 +31,7 @@ class "LinkedList<E>"
 
 "Queue<E>" <|-- "Dequeue<E>"
 "Set<E>" <|-- "HashSet<E>"
+"Set<E>" <|-- "TreeSet<E>"
 
 "List<E>" <|.. "ArrayList<E>"
 "List<E>" <|.. "LinkedList<E>"

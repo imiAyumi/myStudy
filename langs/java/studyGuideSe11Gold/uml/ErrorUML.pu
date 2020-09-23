@@ -1,0 +1,21 @@
+@startuml
+
+title Error UML
+
+
+Throwable <|-- Exception
+Throwable <|-- Error
+
+Exception <|-- RuntimeException
+Exception <|-- IOException
+
+Error <|-- IOError
+Error <|-- AssertionError
+Error <|-- AnnotationFormatError
+
+RuntimeException <|-- NullPointerException
+RuntimeException <|-- ClassCastException
+
+IOException <|-- FileNotFoundException
+
+@enduml

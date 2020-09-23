@@ -63,10 +63,13 @@ public class No_04 {
 // メソッドは充実している。
 // スタックっぽい操作 (push, pop) もまあ一応できる。
 // でも pushLast とか popLast とかは無い
+
+//              👀 peek, element
 //       push → [0] → pop, remove, poll 
 //              [1]
 //              [2]
 //              [3]
 // add, offer → [4] → xxLast
+//              👀 xxLast
 
 // 余談だけど poll は「葉っぱの先端を切り取る」って意味があるとか

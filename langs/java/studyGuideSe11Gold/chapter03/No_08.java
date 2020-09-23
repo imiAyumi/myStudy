@@ -44,5 +44,18 @@ public class No_08 {
         // Collections.sort(l, Comparator.comparing(No_08::getName).thenComparingInt(No_08::getPrice).reversed()); // [700, 500, 300]
 
         System.out.println(l); // 各要素の toString を順次実行する
+
+        // Collections.sort(l, (a, b) -> a - b); // l がただの List とかならこれでも許された。
+        var list = Arrays.asList(3,5,4,2,1);
+        Collections.sort(list, (a, b) -> a - b);
+        System.out.println(list); // [1,2,3,4,5]
+        Collections.sort(list, Func::f);
+        System.out.println(list); // [5,4,3,2,1]
+    }
+}
+
+class Func {
+    static int f(int a, int b){
+        return b-a;
     }
 }
