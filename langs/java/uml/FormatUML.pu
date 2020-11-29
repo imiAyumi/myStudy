@@ -1,0 +1,17 @@
+@startuml
+
+title java.text.Format UML
+
+abstract class Format {
+    ~String format(Object obj)
+}
+
+abstract class DateFormat
+abstract class NumberFormat
+class MessageFormat
+
+Format <|-- DateFormat
+Format <|-- NumberFormat
+Format <|-- MessageFormat
+
+@enduml

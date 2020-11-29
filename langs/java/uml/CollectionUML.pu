@@ -1,0 +1,40 @@
+@startuml
+
+title Collection UML
+
+' 親玉
+interface "Collection<E>"{
+    +removeIf(Predicate p)
+    +remove(Object obj)
+}
+
+' 参謀
+interface "List<E>" {
+    +of()
+    +remove(int index)
+}
+interface "Queue<E>"
+interface "Set<E>"
+
+' 参謀見習い
+interface "Dequeue<E>"
+interface "HashSet<E>"
+
+' 下っ端
+class "ArrayList<E>"
+class "LinkedList<E>"
+
+' 関係図
+"Collection<E>" <|-- "List<E>"
+"Collection<E>" <|-- "Queue<E>"
+"Collection<E>" <|-- "Set<E>"
+
+"Queue<E>" <|-- "Dequeue<E>"
+"Set<E>" <|-- "HashSet<E>"
+"Set<E>" <|-- "TreeSet<E>"
+
+"List<E>" <|.. "ArrayList<E>"
+"List<E>" <|.. "LinkedList<E>"
+"Dequeue<E>" <|.. "LinkedList<E>"
+
+@enduml

@@ -1,0 +1,81 @@
+@startuml
+
+title java.io.Reader UML
+
+' 昔からある IO
+package java.io as IO{
+
+    frame "1.0~" {
+        class File
+        class Properties
+
+        abstract class InputStream
+        class FileInputStream
+
+        abstract class OutputStream
+        class FileOutputStream
+    }
+
+    frame "1.1~" as Sinior {
+        abstract class Reader
+        class BufferedReader
+        class InputStreamReader
+        class StringReader
+        class FileReader
+
+        abstract class Writer
+        class BufferedWriter
+        class OutputStreamWriter
+        class StringWriter
+        class FileWriter
+    }
+
+    legend
+        java.util.stream.Stream は 1.8 で Collection 操作用に追加された。
+        色々混同しないように！ 
+    end legend
+}
+
+' 比較的最近の IO
+package java.nio.file as FILE {
+    frame "1.7~"{
+        class Files
+        interface Path
+        abstract class FileSystem
+        class FileSystems
+    }
+
+    legend
+        ファイル、ファイル属性、ファイル・システムに
+        アクセスするための Java 仮想マシン用の
+        インタフェースとクラスを定義する。
+    end legend
+}
+
+' 1.0
+InputStream <-- FileInputStream
+OutputStream <-- FileOutputStream
+
+' 1.1
+Reader <-- StringReader
+Reader <-- BufferedReader
+Reader <-- InputStreamReader
+InputStreamReader <-- FileReader
+
+Writer <-- StringWriter
+Writer <-- BufferedWriter
+Writer <-- OutputStreamWriter
+OutputStreamWriter <-- FileWriter
+
+' 位置調整
+FileReader <-[hidden]- Writer
+
+Properties <-[hidden]- File
+FileWriter <-[hidden]- InputStream
+
+Files <-[hidden]left- Path
+Files <-[hidden]- FileSystem
+FileSystem <-[hidden]left- FileSystems
+FileOutputStream <-[hidden]- Files
+
+@enduml

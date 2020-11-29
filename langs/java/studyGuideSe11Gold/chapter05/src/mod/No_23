@@ -1,0 +1,4 @@
+特に🍆！
+強いて言えば、Closable を AutoClosable が継承してるんでなくて、
+AutoClosable を Closable が継承しているのだよ、ということ
+あと両方 インターフェースだよ！！

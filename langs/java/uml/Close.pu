@@ -1,0 +1,8 @@
+@startuml
+
+interface AutoCloseable
+interface Closeable
+
+AutoCloseable <-- Closeable
+
+@enduml

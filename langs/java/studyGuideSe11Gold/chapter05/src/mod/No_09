@@ -1,0 +1,4 @@
+検査例外ってなーんだ
+Excption とそれを継承する奴ら
+RuntimeException (実行しないと分からんze Exception) は Exception を継承してるけど非検査例外
+(そうだっけ)

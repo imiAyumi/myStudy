@@ -1,0 +1,3 @@
+module namedModB {
+	requires namedModA;
+}

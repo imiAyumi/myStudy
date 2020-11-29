@@ -1,0 +1,3 @@
+module namedModA {
+	exports pA;
+}

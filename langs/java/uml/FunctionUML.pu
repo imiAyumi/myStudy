@@ -1,0 +1,11 @@
+@startuml
+
+title Function (Functional Interface) UML
+
+"Function<U,T>" <|-- "UnaryOperator<U>"
+"BiFunction<U,T,R>" <|-- "BinaryOperator<U>"
+
+
+
+
+@enduml

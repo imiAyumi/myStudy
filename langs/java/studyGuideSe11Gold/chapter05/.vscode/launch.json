@@ -1,0 +1,102 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - No_27",
+            "request": "launch",
+            "mainClass": "testMod/mod.No_27",
+            "projectName": "chapter05_64764a10"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - No_26",
+            "request": "launch",
+            "mainClass": "testMod/mod.No_26",
+            "projectName": "chapter05_64764a10"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - No_25",
+            "request": "launch",
+            "mainClass": "testMod/mod.No_25",
+            "projectName": "chapter05_64764a10"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - No_24",
+            "request": "launch",
+            "mainClass": "testMod/mod.No_24",
+            "projectName": "chapter05_64764a10"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - No_22",
+            "request": "launch",
+            "mainClass": "testMod/mod.No_22",
+            "projectName": "chapter05_64764a10"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - No_20",
+            "request": "launch",
+            "mainClass": "testMod/mod.No_20",
+            "projectName": "chapter05_64764a10"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - No_19",
+            "request": "launch",
+            "mainClass": "testMod/mod.No_19",
+            "projectName": "chapter05_64764a10"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - No_18",
+            "request": "launch",
+            "mainClass": "testMod/mod.No_18",
+            "projectName": "chapter05_64764a10"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - No_06",
+            "request": "launch",
+            "mainClass": "testMod/mod.No_06",
+            "projectName": "chapter05_64764a10"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - No_17",
+            "request": "launch",
+            "mainClass": "testMod/mod.No_17",
+            "projectName": "chapter05_64764a10"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - No_16",
+            "request": "launch",
+            "mainClass": "testMod/mod.No_16",
+            "projectName": "chapter05_64764a10",
+            "vmArgs": "-enableassertions"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - No_08",
+            "request": "launch",
+            "mainClass": "testMod/mod.No_08",
+            "projectName": "chapter05_64764a10",
+            "vmArgs": "-enableassertions"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "testMod/mod",
+            "projectName": "chapter05_*",
+            "vmArgs": "-enableassertions"
+        }
+    ]
+}
